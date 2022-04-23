@@ -1,0 +1,54 @@
+ openapi: 3.0.3
+ info:
+   title: Data project 3
+   description: Credit Risk evaluation and bank profiling
+   version: 0.0.1:
+   license: open source
+paths:
+  /status/health:
+    get:
+      summary: 'Determine if the API is running and listening as expected, shows also the different components status'
+      description: "Checks inner components status at request moment"
+      responses:
+        '200':
+          description: System status at request time
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HealthStatus'
+        default:
+          description: Unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GeneralError'
+      parameters: []
+componets:
+  schemas:
+    GeneralError:
+      type: object
+      properties:
+        code:
+          type: number
+          example: 500
+        reason:
+          type: string
+          example: internalError
+        message:
+          type: string
+          example: Something wrong has ocurred, please contact with the team of this data project.
+        location:
+          type: string
+          example: Status_Health
+    HealthStatus:
+      type: object
+      properties:
+        db_status:
+          type: string
+          example: "Alive"
+        something_lib_version:
+          type: string
+          example: "0.0.1"
+externalDocs:
+  description: "Find out more about Swagger"
+  url: "http://swagger.io"
