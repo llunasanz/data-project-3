@@ -1,4 +1,4 @@
-# Data Project 3: predicción de riesgo crediticio
+# Data Project 3: Predicción de Riesgo Crediticio
 
 - [Héctor García Jiménez](https://www.linkedin.com/in/hhectorgarcia/)
 - [Sergi Garcia Micó](https://www.linkedin.com/in/sergi-garcia-mic%C3%B3-6b4455161/)
