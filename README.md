@@ -21,7 +21,9 @@ Se trata de uno de los bancos más sostenibres del mundo. Hacen que el dinero tr
 
 # Discusión
 ## Análisis exploratorio de datos
+Todos los datasets se componen de un dos archivos: uno de entrenamiento y otro de test.
 ### Datos demográficos
+Se descarta la columna de _bank\_branch\_clients_ puesto que, entre los dos datasets, los dos datasets, los valores vacíos, representan aproximandamente el 98% de los datos vacíos.
 
 ### Datos de préstamos anteriores
 
