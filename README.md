@@ -12,7 +12,30 @@
 Bbank (entidad bancaria ficticia) es un banco ético de reciente creación.
 Se trata de uno de los bancos más sostenibres del mundo. Hacen que el dinero trabaje para lograr un cambio social, ambiental y cultural positivo.
 
-# Objetivos
+## Objetivos
 
 - Realizar un clustering para ver qué tipos de cliente tiene el banco.
 - Desarrollar un clasificador que pueda predecir si el préstamo será bueno o no.
+
+# Ejecución en entorno local
+
+# Discusión
+## Análisis exploratorio de datos
+### Datos demográficos
+
+### Datos de préstamos anteriores
+
+### Datos de rendimiento (performance)
+
+## Transformación de los datos
+
+## Reducción de la dimensionalidad
+
+## Clustering
+
+## Clasificación
+
+
+# Conclusiones
+
+
