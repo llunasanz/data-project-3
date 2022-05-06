@@ -27,6 +27,9 @@ Todos los datasets se componen de un dos archivos: uno de entrenamiento y otro d
 Se descarta la columna de _bank\_branch\_clients_ puesto que, entre los dos datasets, los dos datasets, los valores vacíos, representan 99% de los datos de la columna. Por otra parte, se tiene en cuenta que la columna _level\_of\_education\_clients_ tiene un 86% de los valores vacíos.
 Con respecto a los datos de la localización, estos podrían no tenerse en cuenta.
 
+Como se observa en el report de los datos descriptivos, casi todos los clientes se sitúan en unas coordenadas determinadas. Y, representando las coordenadas gráficamente, se encuentra que casi todos los datos se sitúan en Nigeria.
+<img src = "etc/mapa_0.jpeg" width="600">
+
 ### Datos de préstamos anteriores
 **Report detallado aquí**
 
