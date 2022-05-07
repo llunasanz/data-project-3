@@ -23,19 +23,38 @@ Se trata de uno de los bancos más sostenibres del mundo. Hacen que el dinero tr
 ## Análisis exploratorio de datos
 Todos los datasets se componen de un dos archivos: uno de entrenamiento y otro de test.
 ### Datos demográficos
-Se descarta la columna de _bank\_branch\_clients_ puesto que, entre los dos datasets, los dos datasets, los valores vacíos, representan aproximandamente el 98% de los datos vacíos.
+**Report detallado aquí**
+Se descarta la columna de _bank\_branch\_clients_ puesto que, entre los dos datasets, los dos datasets, los valores vacíos, representan 99% de los datos de la columna. Por otra parte, se tiene en cuenta que la columna _level\_of\_education\_clients_ tiene un 86% de los valores vacíos.
+Con respecto a los datos de la localización, estos podrían no tenerse en cuenta.
+
+Como se observa en el report de los datos descriptivos, casi todos los clientes se sitúan en unas coordenadas determinadas. Y, representando las coordenadas gráficamente, se encuentra que casi todos los datos se sitúan en Nigeria.
+<img src = "etc/mapa_0.jpeg" width="600">
+
+### Datos de préstamos anteriores
+**Report detallado aquí**
+
+
+### Datos de rendimiento (performance)
+**Report detallado aquí**
+
+## Transformación de los datos
+### Datos demográficos
+
 
 ### Datos de préstamos anteriores
 
-### Datos de rendimiento (performance)
 
-## Transformación de los datos
+### Datos de rendimiento
+
 
 ## Reducción de la dimensionalidad
 
+
 ## Clustering
 
+
 ## Clasificación
+
 
 
 # Conclusiones
