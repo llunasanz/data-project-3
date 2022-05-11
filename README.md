@@ -58,9 +58,10 @@ Como se observa en el report de los datos descriptivos, casi todos los clientes 
 
 # Limitaciones
 (FIXME) Si este modelo tiene que sustituir al método de aprobación automática de préstamos, necesitaríamos también de aquellos datos de los préstamos rechazados (puesto que sólamente tenemos los aprobados). Aquí sólamente tendríamos los verdaderos positivos y falsos positivos de los préstamos que pasan a ser aprobados o rechazados. En el dataset, sólo se tenemos verdaderos positivos y falsos positivos. Sería más interesante contar con los datos de los verdaderos negativos y falsos negativos (es decir, los prestamos malos rechazados y los préstamos buenos aprobados respectivamente).
+Se desconoce el procedimiento manual que ha seguido bbank para aprobar los préstamos.
 
 # Futuras líneas de trabajo
-(FIXME) Poner el tema que se van a necesitar más datoss.
+(FIXME) Poner el tema que se van a necesitar más datos. 
 # Conclusiones
 
 
