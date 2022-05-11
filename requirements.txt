@@ -1,3 +1,4 @@
-sweetviz
 mglearn
+sweetviz
+yellowbrick
 xgboost
