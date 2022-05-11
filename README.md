@@ -20,6 +20,34 @@ Se trata de uno de los bancos más sostenibres del mundo. Hacen que el dinero tr
 
 
 # Ejecución en entorno local
+Se clona el repositorio:
+- HTTPS
+`git clone https://github.com/llunasanz/data-project-3.git`
+
+- SSH
+`git clone git@github.com:llunasanz/data-project-3.git`
+
+- GitHub CLI
+`gh repo clone llunasanz/data-project-3`
+
+En la consola de comandos, dentro de la carpeta del repositorio, se ejecuta el comando `make` o `sudo make` (en caso de tener problemas con los permisos).
+
+Una vez aparezca el siguiente log, que indica el fin de la ejecución de los procesos del contenedor, se accede al entorno de Jupyter Lab mediante el último enlace que aparezca en consola:
+
+```  
+[C 2022-05-11 17:44:48.558 ServerApp]  
+  
+    To access the server, open this file in a browser:
+        file:///home/jovyan/.local/share/jupyter/runtime/jpserver-7-open.html  
+    Or copy and paste one of these URLs:  
+        http://dc3320ece626:8888/lab?token=a18d3c4cdb4776e7b1f8e14b86f084aa203e8540cdc8d16b  
+     or http://127.0.0.1:8888/lab?token=a18d3c4cdb4776e7b1f8e14b86f084aa203e8540cdc8d16b  
+  
+```
+**Nota**: para acceder directamente a Jupyter Notebook, reemplaza *tab* por *tree* en el enlace.
+
+Una vez dentro, se accede a la carpeta de work donde se encontrará el repositorio descargado.
+
 
 # Discusión
 ## Análisis exploratorio de datos
