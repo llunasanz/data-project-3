@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  data-project-3:
+    container_name: data-project-3
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # image: jupyter/datascience-notebook
+    environment:
+      - JUPYTER_TOKEN=dp
+    volumes:
+      - ./:/home/team_edem/data-project
+    # ports:
+      # - 8898:8898
+
