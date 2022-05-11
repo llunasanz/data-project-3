@@ -1,15 +1,8 @@
-FROM python:3-alpine
+FROM jupyter/datascience-notebook
 
-RUN mkdir -p /usr/src/app
-WORKDIR /usr/src/app
+USER root
 
-COPY requirements.txt /usr/src/app/
+RUN chown -R $NB_UID .
 
-RUN pip3 install --no-cache-dir -r requirements.txt
-
-COPY . /usr/src/app
-
-EXPOSE 8080
-
-ENTRYPOINT ["python3"]
+USER $NB_UID
 
