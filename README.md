@@ -48,25 +48,28 @@ Una vez aparezca el siguiente log, que indica el fin de la ejecución de los pro
 
 Una vez dentro, se accede a la carpeta de work donde se encontrará el repositorio descargado.
 
+## Vídeo de demostración
+https://youtu.be/evEfN-wHDrk
+
 
 # Discusión
 ## Análisis exploratorio de datos
-Todos los datasets se componen de un dos archivos: uno de entrenamiento y otro de test.
-### Datos demográficos
-**Report detallado aquí**
+Todos los datasets se componen de un dos archivos: uno de entrenamiento y otro de test. Para más información, consultar la carpeta de reports.
 
+### Datos demográficos
 Se descarta la columna de _bank\_branch\_clients_ puesto que, en total, los valores vacíos representan 99% de los datos de la columna y, por tanto, dicha variable no aportará información relevante. Por otra parte, se tiene en cuenta que la columna _level\_of\_education\_clients_ pueda ser poco relevante por tener un 86% de los valores vacíos.
 
 Como se observa en el report de los datos descriptivos, casi todos los clientes se sitúan en unas coordenadas determinadas, concretamente en Nigeria.
 
 <img src = "etc/mapa_0.jpeg" width="600">
 
+<img src = "etc/mapa_1.jpeg" width="600">
+
+
 ### Datos de préstamos anteriores
-**Report detallado aquí**
 
 
 ### Datos de rendimiento (performance)
-**Report detallado aquí**
 
 ## Transformación de los datos
 ### Datos demográficos
