@@ -18,6 +18,75 @@ Se trata de uno de los bancos más sostenibres del mundo. Hacen que el dinero tr
 - Desarrollar un clasificador que pueda predecir si el préstamo será bueno o no.
 - Teniendo en cuenta que los préstamos malos aprobados son el 21,77%, el modelo debería de tener un recall significativamente superior al 78,23% para que marque una diferencia al procedimiento de aprobaciones de préstamos por parte de bbank (el modelo base).
 
+## Repositorio
+<code>
+data-project-3
+├───clustering
+│   │
+│   ├───files
+│   │   ├───datosdemograficos\_limpio.csv
+│   │   │
+│   │   ├───performancelimpio.csv
+│   │   │
+│   │   └───previous\loan\_limpio.csv
+│   │
+│   └───notebooks
+│       ├───Clustering.ipynb
+│       │
+│       ├───Datos\_Demograficos.ipynb
+│       │
+│       ├───Performance.ipynb
+│       │
+│       └───Previous\_loan.ipynb
+│
+├───etc
+│   ├───bbank\_logo.png
+│   │
+│   ├───mapa\_0.jpeg
+│   │
+│   └───mapa\_2.jpeg
+│
+├───raw\_data
+│   ├───SampleSubmission.csv
+│   │
+│   ├───test\_datos\_demograficos.csv
+│   │
+│   ├───test\_performance.csv
+│   │
+│   ├───test\_previous\_loan.csv
+│   │
+│   ├───train\_datos\_demograficos.csv
+│   │
+│   ├───train\_performance.csv
+│   │
+│   └───train\_previous\_loan.csv
+│
+├───reports
+│   ├───EDA.py
+│   │
+│   ├───demographic\_data\_report.html
+│   │
+│   ├───performance\_data\_report.html
+│   │
+│   ├───previous\_data\_report.html
+│   │
+│   ├───test\_performance\_data\_report.html
+│   │
+│   └───train\_performance\_data\_report.html
+│
+├───.gitignore
+│
+├───Dockerfile
+│
+├───EDA\_classification.ipynb
+│
+├───Makefile
+│
+├───README.md
+│
+└───requirements.txt
+
+</code>
 
 # Ejecución en entorno local
 Se clona el repositorio:
@@ -46,7 +115,7 @@ Una vez aparezca el siguiente log, que indica el fin de la ejecución de los pro
 ```
 **Nota**: para acceder directamente a Jupyter Notebook, reemplaza *tab* por *tree* en el enlace.
 
-Una vez dentro, se accede a la carpeta de work donde se encontrará el repositorio descargado.
+Una vez dentro, se accede a la carpeta de work donde se encontrará el repositorio descargado y con los notebooks a ejectuar de acuerdo con lo descrito en el subapartado de *Repositorio*.
 
 ## Vídeo de demostración
 https://youtu.be/evEfN-wHDrk
