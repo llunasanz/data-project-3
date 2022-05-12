@@ -131,8 +131,14 @@ En el video demostración se puede observar los pasos a seguir para realizar:
 
 4- Clasificador
 
+# Conclusiones
+Teniendo en cuenta las métricas de exactitud de los modelos de clasificación, se observa que ninguno de ellos consigue una mejora superior al 5% con respecto al "modelo" base (cuando no se aplica ninguno).
 
 # Limitaciones del proyecto
-(FIXME) Si este modelo tiene que sustituir al método de aprobación automática de préstamos, necesitaríamos también de aquellos datos de los préstamos rechazados (puesto que sólamente tenemos los aprobados). Aquí sólamente tendríamos los verdaderos positivos y falsos positivos de los préstamos que pasan a ser aprobados o rechazados. En el dataset, sólo se tenemos verdaderos positivos y falsos positivos. Sería más interesante contar con los datos de los verdaderos negativos y falsos negativos (es decir, los prestamos malos rechazados y los préstamos buenos aprobados respectivamente).
+Para mejorar las métricas del clasificador, también se debería de disponer de aquellos datos de los préstamos rechazados (puesto que sólamente tenemos los aprobados) para trabajar con más casos de préstamos malos (incluso poder conocer si pueden existir préstamos buenos descartados por la entidad bancaria). Aquí sólamente tendríamos los verdaderos positivos y falsos positivos de los préstamos que pasan a ser aprobados.
+
 Se desconoce el procedimiento manual que ha seguido bbank para aprobar los préstamos.
 
+# Propuestas futuras de trabajo
+- Mejora de los modelos de clasificación y de agrupación mediante el empleo de los datos contables de los clientes que puedan dar más información acerca de la solvencia del cliente.
+- En referencia a lo anterior, tener más información del próposito del préstamo para incentivar la financiación de proyectos de un mayor carácter ético y social.
