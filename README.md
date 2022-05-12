@@ -19,7 +19,8 @@ Se trata de uno de los bancos más sostenibres del mundo. Hacen que el dinero tr
 - Teniendo en cuenta que los préstamos malos aprobados son el 21,77%, el modelo debería de tener un recall significativamente superior al 78,23% para que marque una diferencia al procedimiento de aprobaciones de préstamos por parte de bbank (el modelo base).
 
 ## Repositorio
-<code>
+
+```
 data-project-3
 ├───clustering
 │   │
@@ -86,7 +87,7 @@ data-project-3
 │
 └───requirements.txt
 
-</code>
+```
 
 # Ejecución en entorno local
 Se clona el repositorio:
